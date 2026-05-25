@@ -6,23 +6,135 @@ Output: `output/maria_showreel_roughcut.mp4`
 
 ---
 
-## 1. Install ffmpeg
+## 1. Install Homebrew
 
-You need ffmpeg installed once. On macOS:
+Homebrew is a package manager for macOS. If you don't have it yet:
 
 ```bash
-brew install ffmpeg
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 Check it works:
 
 ```bash
-ffmpeg -version
+brew --version
 ```
 
 ---
 
-## 2. The source videos are already here
+## 2. Install the tools
+
+```bash
+brew install ffmpeg yt-dlp
+```
+
+Check both work:
+
+```bash
+ffmpeg -version
+yt-dlp --version
+```
+
+---
+
+## 3. Download the source material
+
+The videos and audio files are not stored in this repo (they are too large). Download everything needed with:
+
+```bash
+python3 download_sources.py
+```
+
+This script reads `edit_decision_list.csv`, figures out exactly which YouTube videos and audio files are needed, and downloads them into `video-selection/` — skipping anything already present.
+
+Files are saved automatically as:
+```text
+video-selection/
+  VideoTitle [YouTubeID].mp4    ← for video rows
+  VideoTitle [YouTubeID].mp3    ← for audio rows
+```
+
+If you want to download a file manually:
+
+```bash
+# Download video (.mp4)
+yt-dlp -f "bv*+ba/b" --merge-output-format mp4 "https://www.youtube.com/watch?v=VIDEO_ID"
+
+# Download audio only (.mp3)
+yt-dlp -x --audio-format mp3 "https://www.youtube.com/watch?v=VIDEO_ID"
+```
+
+---
+
+## 4. Edit the cut list
+
+Open `edit_decision_list.csv`. This is where all editing decisions live. Rows are processed in the order they appear in the file — just move lines up or down to reorder.
+
+Each row is one shot:
+
+| column | meaning |
+|---|---|
+| `type` | `video` = a visual clip, `audio` = a music/audio bed |
+| `section` | narrative section (intro, musicianship, energy, authority, theatrical, ending, music_bed) |
+| `source_id` | YouTube ID of the source file |
+| `source_hint` | human-readable name of the source (for your reference only) |
+| `start` | timecode where the clip starts — `HH:MM:SS` or `HH:MM:SS.d` for tenths of a second (e.g. `00:00:10.3`) |
+| `end` | timecode where the clip ends — same format as `start` |
+| `label` | short description of what happens in this shot |
+| `mute` | `yes` = silence this video clip, `no` = keep its original audio |
+
+**To change a cut:** adjust `start` and `end`.  
+**To reorder shots:** move the row up or down.  
+**To remove a shot:** delete the row.  
+**To add a shot:** insert a new row anywhere.
+
+### Video rows vs audio rows
+
+- `video` rows define the visual sequence — each is a clip cut from a source video.
+- `audio` rows define music beds that play over the visuals. An audio row placed at position N in the list starts at the same point in the timeline as the video rows after it.
+
+To have a music bed play over the full video, put the `audio` row first (before all `video` rows) with `start=00:00:00`.
+
+---
+
+## 5. Run the script
+
+```bash
+python3 make_showreel.py
+```
+
+The script will:
+1. Read every row in `edit_decision_list.csv`
+2. Find the matching file in `video-selection/`
+3. Cut out the exact moment specified
+4. Normalize everything to 1920×1080, 25 fps, H.264
+5. Join all video clips in order
+6. Mix any audio beds at the right position
+
+Result:
+```text
+output/maria_showreel_roughcut.mp4
+```
+
+Individual clips are saved in `work/` so you can check any single moment without re-running everything.
+
+---
+
+## 6. Clean up and start fresh
+
+To delete all generated files and run again from scratch:
+
+```bash
+bash clean.sh
+```
+
+---
+
+## Next improvements (in order)
+
+1. Add a short fade-in at the start and fade-out at the end.
+2. Add a minimal name card — "Maria Martinez Paya", small, early.
+3. Experiment with cut timing against the music beat — adjust `start`/`end` in the CSV and re-run.
 
 All source videos are in `video-selection/`. The files already present are:
 

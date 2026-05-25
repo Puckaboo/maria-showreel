@@ -1,6 +1,10 @@
-foto-selection/
-video-selection/
-work/
-output/
+foto-selection/*
+!foto-selection/.gitkeep
+video-selection/*
+!video-selection/.gitkeep
+work/*
+!work/.gitkeep
+output/*
+!output/.gitkeep
 __pycache__/
 .DS_Store
