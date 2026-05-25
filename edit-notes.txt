@@ -1,0 +1,132 @@
+
+
+I strolled through YouTube, and I found there all the content we need to make a good showreel for Maria. Other projects allready put alot of great promo content out here. 
+
+It is processed, it has good technical quality, there are interesting shots, there is good audio... all the things that make it levels above working with phone generated content.
+
+
+I used the tool yt-dlp to download the movies. I download them in .mp4 and .mkv file, but there are even more edit friendly formats possible, and of course the audio only. But maybe in this case the best is to go for bits and pieces to tell the right story.
+
+
+Scrolling to the videos, I see many good shots of Maria. And I find content that I could cluster the shots in these different areas:
+  - music projects (hiit), -> these make her musical, playful and artist quality shine
+  - party project (DDD), -> these make her adience interaction and fun nature shine
+  - commercial projects (Verder, Maestro), -> these make her professional and classical sides shine
+  - theatrical project (Oorkaan, 9x13) -> this makes her theatrical and performer side shine
+
+I went through the content, and I watched the clips. Some sections that are interesting as editing material:
+
+- file: ＂Open Canvas＂ by Jlin & HIIIT [3P-A7J6Pqnc]
+  - extension: .mp4, .mkv
+  - area: music
+  - description: Music video in a music studio setting, its a fun piece with many tasteful shots of the group playing, total length is approx 5 minutes 7 seconds
+  - opinion: very useful content, has good quality,  similar to the other Jlin & HIIIT videos, so interchangeable 
+  - sections:
+    - 00:00 - 00:15, very good intro for musing area, she is being playful with slippers
+    - 01:11 - 01-15, nice shot of you playing marimba
+    - 01:34 - 01:38, even nicer shot of you playing marimba
+    - 02:04 - 02:15, nice general shot for ambience, and side view playing slippers
+    - 02:52 - 02:57, nice shot you playing piano
+    - and more ...
+
+
+- file: ＂Speed Of Darkness＂ by Jlin & HIIIT [gz85boURfws]
+  - extension: .mp4, .mkv
+  - area: music
+  - description: Music video in a music studio setting, its a fun piece with many tasteful shots of the group playing, total length is approx 5 minutes 18 seconds
+  - opinion: very useful content, has good quality, similar to the other Jlin & HIIIT videos, so interchangeable 
+  - sections:
+    - 03:30 - 03:45, nice close up playing marimba
+    - 05:13 - 05:18, nice xylophone shot
+
+
+- file: ＂The Move Groove＂ by Jlin & HIIIT [eEGf4yjfd4E]
+  - extension: .mp4, .mkv
+  - area: music
+  - description: Music video in a music studio setting, its a fun piece with many tasteful shots of the group playing, total length is approx 3 minutes 58 seconds
+  - opinion: very useful content, has good quality, similar to the other Jlin & HIIIT videos, so interchangeable 
+  - sections:
+    - 00:00 - 00:18, another nice intro, Maria playing cowbell
+    - 00:50 - 00:55, nice cowbell playing shot
+    - 01:00 - 01:10, nice shots with you smiling
+    - 01:56 - 01:59, though looking Maria playing
+    - 03:15 - 03:20, funny shot
+    - 03:50 - 03:55, nice ending for this area
+
+- file: DDD Grand - Charity Gala - Spieren voor Spieren [KvDDFS-zNhw]
+  - extension: .mp4, .mkv
+  - area: party
+  - description: Dames draaien door playing on a charity event "spieren voor spieren", nice shots of performance, a bit like bootleg recording material plus, not so many camera changes, total length about 1 minute 42 seconds
+  - opinion: is also good material, but the quality is a bit less produced/processed, nice as variety with other party area sections
+  - sections:
+    - 00:27 - 00:33, frontal shot showing charity event, audience and Maria playing jambe
+    - 00:36 - 00:39, playful with audience and with colleagues, smiling fun and dancing
+    - 01:05 - 01:00, playing jambe and having fun, very energetic
+    - more sections of this sort
+
+- file: ＂F.E.M. - Feminine Energetic Music - PROMO TRAILER 2025 [66K3YZ625c8]
+  - extension: .mp4, .mkv
+  - area: party
+  - description: full on Dames draaien door promo, party beach summer setting at night, very high energy shots, total length about 36 seconds
+  - opinion: this entire clip is party area gold. has good quality
+  - sections:
+    - 00:00 - 00:05, good intro for this area, sets the tone
+    - 00:06 - 00:15, party gold for Maria, fun smiling and amazing shot
+    - 00:20 - 00:24, party gold, fun smiling and amazing shot
+
+
+- file: Jamai Loman dirigeert Mercury Rising van Daughtrey ｜ Maestro [qeYoU-lR_-k]
+  - extension: .mp4, .mkv
+  - area: commercial
+  - description: shots taken from dutch TV show Maestro, a very good conductor is conducting and there are plenty of shots of Maria as a percussionist, total length about 1 minute 59 seconds
+  - opinion: very good material to reinforce your classical and professional side, very good quality
+  - sections: 
+    - 00:09 - 00:14, good intro for this area
+    - 00:23 - 00:28, full frontal classical marimba shot
+    - 00:40 - 00:40, good shot for orchestra feel
+    - 00:54 - 00:59, good vibe with orchestra and conductor
+    - 01:40 - 01:45, Maria playing pauken very powerful show, professional gold
+    - 01:53 - 01-59, funny ending for this area, orgasmic ending :)
+  
+
+- file: Loading Dock Session #24 ｜ with upsammy [4PWvV6z4FHU]
+  - extension: .mp4, .mkv
+  - area: music
+  - description: artistic video of percussionist playing in a garage, tastefully done, great shots of musicians collaborating
+  - opinion: very good material of Maria the musician, playing with others, makes her shine as a collaborative performer
+  - sections:
+    - 00:53 - 00:58, good playing with others, cool setting
+    - 03:12 - 03:22, playing, fuzzy background shot of Maria, fun
+    - 03:48 - 03:58, vibing, fun shots, also playing with others
+
+- file: Simone Kleinsma： VERDER - Trailer [Xo0tKfQNhHs]
+  - extension: .mp4, .mkv
+  - area: commercial, theatrical
+  - description: promo video of musical performer Simone Kleinsma with show verder, about 1 minute total duration
+  - opinion: very good content for Maria as a theater professional, commercial content, but good to show stage presence
+  - sections:
+    - 00:12 - 00:16, commercial gold with Maria shining on the cajon together with main performer, intimate
+   - 00:43 - 00:45, Maria shining on the marimba with main performer
+
+- file: Trailer Nieuw Babylon 9x13 [yiUM3N-7aqk]
+  - extension: .mp4, .mkv
+  - area: theatrical
+  - description: promo video of 9x13 show, not highly processed, a few different shots, 1 minute 20 seconds of content (though the movie itself is about 1 minute and 40 seconds long)
+  - opinion: medium good content, Maria not so clearly visible, quality of video is a bit low, but maybe good for variation within this area
+  - sections:
+    - 00:49 - 00:51, some quick shots of Maria playing snare, but badly visible
+
+- file: Trailer Superball, Lollipop & Mr. Classic van Oorkaan met HIIIT [6mpKr-avvlY]
+  - extension: .mp4, .mkv
+  - area: theatrical
+  - description: promo video of oorkaan show, very similar group to Percossa, very theatrical and playful with music theater, about 1 minute duration
+  - opinion: this is full of good content with Maria, this is most directly on point for what Percossa seems to need, many different and interesting sounds and shots percussion, beat boxing, theater, moving, stage presence, fun
+  - sections: 
+    - 00:04 - 00:10, good intro for this area
+    - 00:25 - 00:30, playful and creative music theater gold, using beatboxer as groove machine
+    - 00:35 - 00:46, very nice section as well, playful on stage with others
+    - 00:49 - 00:59, vibraphone, blacklight, ending gold
+    
+
+
+
